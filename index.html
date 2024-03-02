@@ -148,6 +148,36 @@
      <p>
     &lt/table>
     </p>
-    
+    <h2>Добавим анимацию</h2>
+    <img id="myImg" src="5c68006e3b972168f641aea4.png">
+    <script>
+	
+	var cat = document.getElementById('myImg');
+	var angle = 0, lastTime = null;
+	function animate(time) {
+	if (lastTime != null)
+	angle += (time - lastTime) * 0.001;
+	lastTime = time;
+	cat.style.top = (Math.sin(angle) * 100) + "px";
+	cat.style.left = (Math.cos(angle) * 200) + "px";
+	requestAnimationFrame(animate);
+	}
+      
+         &ltimg id="myImg" src="5c68006e3b972168f641aea4.png">
+    &ltscript>
+	
+	var cat = document.getElementById('myImg');
+	var angle = 0, lastTime = null;
+	function animate(time) {
+	if (lastTime != null)
+	angle += (time - lastTime) * 0.001;
+	lastTime = time;
+	cat.style.top = (Math.sin(angle) * 100) + "px";
+	cat.style.left = (Math.cos(angle) * 200) + "px";
+	requestAnimationFrame(animate);
+	}
+    requestAnimationFrame(animate);
+  &lt/script>
+      
   </body>
 </html>
