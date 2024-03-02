@@ -1,4 +1,4 @@
-img {
+#myImg {
    height: 300px
    transition: transform .3s ease-in-out;
 }
