@@ -161,6 +161,17 @@
 	cat.style.top = (Math.sin(angle) * 100) + "px";
 	cat.style.left = (Math.cos(angle) * 200) + "px";
 	}
+	    
+	var button = document.querySelector("button");
+button.addEventListener("click", function() {
+alert("!!!");
+});
+
+document.getElementById('myImg').onclick = myFunction;
+
+function myFunction() {
+  alert('Ouch');
+}
 	requestAnimationFrame(animate);
     </script>
       
