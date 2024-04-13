@@ -12,8 +12,8 @@ h2 {
 }
 h1 {
    color: #6E6A6A;
-   animation-duration: 3s;
-   animation-name: slidein;
+   #animation-duration: 3s;
+   #animation-name: slidein;
 }
 @keyframes slidein {
   from {
