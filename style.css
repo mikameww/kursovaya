@@ -2,3 +2,8 @@ img {
    height: 250px;
    transition: transform .3s ease-in-out;
 }
+
+body {
+   background-color: #DC9891;
+   background-size: cover;
+}
