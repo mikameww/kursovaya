@@ -39,6 +39,9 @@ marquee {
 p {
    color: #6E6A6A;
 }
+button {
+	button-size:50px;
+}
 button:hover {
 	button-size:50px;
 	background: rgba(0,0,0,0);
