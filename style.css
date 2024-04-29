@@ -48,3 +48,7 @@ button:hover {
 	color: #6E6A6A;
 	box-shadow: inset 0 0 0 3px #6E6A6A;
 }
+
+a:hover #img2, a:focus #img2 {
+   transform: scale(1.5) rotate(-3deg);
+}
