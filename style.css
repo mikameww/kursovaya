@@ -10,7 +10,7 @@ body {
 h2 {
    color: #6E6A6A;
 }
-h1 {
+#title {
    color: #6E6A6A;
    animation-duration: 3s;
    animation-name: slidein;
