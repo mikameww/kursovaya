@@ -39,12 +39,7 @@ marquee {
 p {
    color: #6E6A6A;
 }
-button {
-	button-size: 50px;
-}
 button:hover {
-	height: 10px;
-	width: 25;
 	background: rgba(0,0,0,0);
 	color: #6E6A6A;
 	box-shadow: inset 0 0 0 3px #6E6A6A;
