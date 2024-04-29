@@ -54,5 +54,4 @@ button:hover {
 }
 a:hover #img2, a:focus #img2 {
    transform: scale(1.5) rotate(-3deg);
-   margin-left: 60px;
 }
