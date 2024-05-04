@@ -80,4 +80,5 @@ div {
 }
 .info {
 	position: right;
+	opacity: 0;
 }
