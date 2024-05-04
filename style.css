@@ -69,4 +69,7 @@ a:hover #img2, a:focus #img2 {
    width: 300px;
    background-color: #FFFFFF;
 }
-
+div {
+   border: 5px solid #FFDCD2; 
+   background-color: #FFFFFF;
+}
