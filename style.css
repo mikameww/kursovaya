@@ -72,4 +72,5 @@ a:hover #img2, a:focus #img2 {
 div {
    border: 5px solid #FFDCD2; 
    background-color: #FFFFFF;
+   width: 350px;
 }
