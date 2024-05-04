@@ -57,8 +57,14 @@ a:hover #img2, a:focus #img2 {
    transform: scale(1.5) rotate(-3deg);
    margin-left: 60px;
 }
-.divv {
+.div {
    border: 5px solid #FFDCD2; 
-   height: 500px;
+   height: 520px;
    width: 350px;
 }
+.divv {
+   border: 5px solid #FFDCD2; 
+   height: 400px;
+   width: 350px;
+}
+
