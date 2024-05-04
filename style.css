@@ -79,6 +79,7 @@ div {
 	overflow: auto;
 	padding: 10px;
 	position: left;
+	font-color: #6E6A6A;
 }
 .info {
 	position: right;
