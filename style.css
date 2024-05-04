@@ -84,6 +84,6 @@ div {
 }
 .info {
   	position: relative;
-  	right: 25px;
+  	left: 100px;
 	background-opacity: 0;
 }
