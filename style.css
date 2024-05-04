@@ -76,12 +76,11 @@ div {
 }
 
 .nav {
-	position: absolute;
-	overflow: auto;
-	padding: 10px;
-	position: left;
+	position: sticky;
+	top: 15px;
+	left: 15px;
 	font-color: #6E6A6A;
-	height: 720px;
+	height: 800px;
 }
 .info {
 	position: right;
