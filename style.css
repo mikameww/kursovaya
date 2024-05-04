@@ -74,3 +74,10 @@ div {
    background-color: #FFFFFF;
    width: 350px;
 }
+
+.nav {
+	position: absolute left;
+}
+.info {
+	position: right;
+}
