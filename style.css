@@ -76,7 +76,9 @@ div {
 }
 
 .nav {
-	position: absolute left;
+	overflow: auto;
+	padding: 10px;
+	position: left;
 }
 .info {
 	position: right;
