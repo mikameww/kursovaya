@@ -84,5 +84,6 @@ div {
 }
 .info {
 	float: right;
-	div-opacity: 0;
+	background-color: #FFCAC0;
+	border: 0px;
 }
