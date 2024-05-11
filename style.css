@@ -83,7 +83,6 @@ div {
 	height: 800px;
 }
 .info {
-	position: absolute;
-	left: 300px;
+	float: right;
 	div-opacity: 0;
 }
