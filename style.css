@@ -76,7 +76,8 @@ div {
 }
 
 .nav {
-	
+	position: sticky;
+	float: right;
 	top: 15px;
 	right: 20px;
 	font-color: #6E6A6A;
