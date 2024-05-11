@@ -82,7 +82,7 @@ div {
 	right: 20px;
 	font-color: #6E6A6A;
 	height: 800px;
-	font-face: Courier New;
+	font: "Courier New";
 }
 
 
