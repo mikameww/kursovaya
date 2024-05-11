@@ -3,10 +3,10 @@ body {
    background-size: cover;
 }
 
-button {
+.button1 {
 	width: 50px;
 }
-button:hover {
+.button1:hover {
 	width: 50px;
 	background: rgba(0,0,0,0);
 	color: #6E6A6A;
