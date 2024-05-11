@@ -6,9 +6,9 @@ body {
 :root {
 	/* COLORS */
 	--white: #e9e9e9;
-	--gray: #333;
+	--gray: #FFE7E7;
 	--blue: #FFCAC0;;
-	--lightblue: #008997;
+	--lightblue: #EB9397;
 
 	/* RADII */
 	--button-radius: 0.7rem;
