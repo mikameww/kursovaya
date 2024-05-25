@@ -225,53 +225,7 @@ h2 {
   }
 }  
 
-ol {
-   color: #6E6A6A;
-}
-ul {
-   color: #6E6A6A;
-}
-marquee {
-   color: #6E6A6A;
-}
-p {
-   color: #6E6A6A;
-}
-button {
-	width: 50px;
-}
-button:hover {
-	width: 50px;
-	background: rgba(0,0,0,0);
-	color: #6E6A6A;
-	box-shadow: inset 0 0 0 3px #6E6A6A;
-}
 
-#img2 {
-   margin-left: 60px;
-   height: 150px;
-}
-a:hover #img2, a:focus #img2 {
-   transform: scale(1.5) rotate(-3deg);
-   margin-left: 60px;
-}
-.divvv {
-   border: 5px solid #FFDCD2; 
-   height: 510px;
-   width: 350px;
-   background-color: #FFFFFF;
-}
-.divv {
-   border: 5px solid #FFDCD2; 
-   height: 290px;
-   width: 300px;
-   background-color: #FFFFFF;
-}
-div {
-   border: 5px solid #FFDCD2; 
-   background-color: #FFFFFF;
-   width: 350px;
-}
 
 .nav {
 	position: sticky;
