@@ -236,6 +236,9 @@ h2 {
 	height: 800px;
 	font: 30px "Courier New", sans-serif;
 }
+
+@import url('https://fonts.googleapis.com/css?family=Lobster Two');
+
 h3{
   margin: 40px auto;
   font-family: 'Ubuntu', sans-serif;
