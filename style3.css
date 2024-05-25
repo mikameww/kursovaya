@@ -237,18 +237,3 @@ h2 {
 	font: 30px "Courier New", sans-serif;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Lobster Two');
-
-h3{
-  margin: 40px auto;
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 70px;
-  font-weight: bold;
-  color: #CFC547;
-  text-align: center;
-  letter-spacing: 5px;
-  text-shadow: 10px 10px 25px rgb(81,67,21),
-    -10px 10px 25px rgb(81,67,21),
-    -10px -10px 25px rgb(81,67,21),
-    10px -10px 25px rgb(81,67,21);
-}
