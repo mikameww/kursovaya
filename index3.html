@@ -12,7 +12,8 @@
      <link rel="stylesheet" href="style3.css">
   </head>
   <body>
-    <script>
+<h2>Добавим форму</h2>
+<script>
 
 const signInBtn = document.getElementById("signIn");
 const signUpBtn = document.getElementById("signUp");
@@ -68,6 +69,71 @@ secondForm.addEventListener("submit", (e) => e.preventDefault());
 	</div>
 </div>
 
+<h2>HTML</h2>
+ <p>&ltscript></p>
+
+<p>const signInBtn = document.getElementById("signIn");</p>
+<p>const signUpBtn = document.getElementById("signUp");</p>
+<p>const fistForm = document.getElementById("form1");</p>
+<p>const secondForm = document.getElementById("form2");</p>
+<p>const container = document.querySelector(".container");</p>
+
+<p>signInBtn.addEventListener("click", () => {</p>
+<p>container.classList.remove("right-panel-active");</p>
+<p>});</p>
+
+<p>signUpBtn.addEventListener("click", () => {</p>
+<p>container.classList.add("right-panel-active");</p>
+<p>});</p>
+
+<p>fistForm.addEventListener("submit", (e) => e.preventDefault());</p>
+<p>secondForm.addEventListener("submit", (e) => e.preventDefault());</p>
+	
+ <p>&lt/script></p>
+<p>&ltdiv class="container right-panel-active"></p>
+	<!-- Sign Up -->
+	<p>&ltdiv class="container__form container--signup"></p>
+		<p>&ltform action="#" class="form" id="form1"></p>
+			<p>&lth2 class="form__title">Sign Up&lt/h2></p>
+			<p>&ltinput type="text" placeholder="User" class="input"/></p>
+			<p>&ltinput type="email" placeholder="Email" class="input"/></p>
+			<p>&ltinput type="password" placeholder="Password" class="input"/></p>
+			<p>&ltbutton class="btn">Submit&lt/button></p>
+		<p>&lt/form></p>
+	<p>&lt/div></p>
+
+	<!-- Sign In -->
+	<p>&ltdiv class="container__form container--signin"></p>
+		<p>&ltform action="#" class="form" id="form2"></p>
+			<p>&lth2 class="form__title">Sign In&lt/h2></p>
+			<p>&ltinput type="email" placeholder="Email" class="input"/></p>
+			<p>&ltinput type="password" placeholder="Password" class="input"/></p>
+			<p>&lta href="#" class="link">Forgot your password?&lt/a></p>
+			<p>&ltbutton class="btn">Submit&lt/button></p>
+		<p>&lt/form></p>
+	<p>&lt/div></p>
+
+	<!-- Overlay -->
+	<p>&ltdiv class="container__overlay"></p>
+		<p>&ltdiv class="overlay"></p>
+			<p>&ltdiv class="overlay__panel overlay--left"></p>
+				<p>&ltbutton class="btn" id="signIn">Cancel&lt/button></p>
+			<p>&lt/div></p>
+			<p>&ltdiv class="overlay__panel overlay--right"></p>
+				<p>&ltbutton class="btn" id="signUp">Cancel&lt/button></p>
+			<p>&lt/div></p>
+		<p>&lt/div></p>
+	<p>&lt/div></p>
+
+<h2>Добавим видео</h2>
+	  
+	<video width="320" height="320" controls="controls" poster="logo.png">
+	<source src="mizuki-akiyama-project-sekai.mp4" type="video/mp4">
+
+	<p>&ltvideo width="320" height="320" controls="controls" poster="logo.png"></p>
+	<p>&ltsource src="mizuki-akiyama-project-sekai.mp4" type="video/mp4"></p>
+
+	  
 <a href='index2.html'>
     <button class="button1">
 	<h1>↲</h1>
