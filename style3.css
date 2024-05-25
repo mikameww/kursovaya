@@ -3,6 +3,11 @@ body {
    background-size: cover;
 }
 
+h2 {
+   color: #6E6A6A;
+}
+p {
+   color: #6E6A6A;
 
 :root {
 	/* COLORS */
