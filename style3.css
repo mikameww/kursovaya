@@ -239,5 +239,8 @@ h2 {
 	font-color: #6E6A6A;
 	height: 800px;
 	font: 30px "Courier New", sans-serif;
+	border: 5px solid #FFDCD2; 
+   	background-color: #FFFFFF;
+   	width: 350px;
 }
 
