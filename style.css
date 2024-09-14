@@ -17,6 +17,7 @@ h2 {
    color: #6E6A6A;
    animation-duration: 3s;
    animation-name: slidein;
+   ​font-family: Garamond, serif;
 }
 @keyframes slidein {
   from {
