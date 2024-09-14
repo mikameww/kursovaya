@@ -1,3 +1,6 @@
+html {
+   scroll-behavior: smooth;
+}
 #img1 {
    height: 250px;
    transition: transform .3s ease-in-out;
