@@ -225,7 +225,11 @@ h2 {
   }
 }  
 
-
+.code {
+   border: 5px solid #FFDCD2; 
+   background-color: #FFFFFF;
+   width: 350px;
+}
 
 .nav {
 	position: sticky;
