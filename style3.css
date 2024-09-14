@@ -225,23 +225,7 @@ h2 {
   }
 }  
 
-.divvv {
-   border: 5px solid #FFDCD2; 
-   height: 510px;
-   width: 350px;
-   background-color: #FFFFFF;
-}
-.divv {
-   border: 5px solid #FFDCD2; 
-   height: 290px;
-   width: 300px;
-   background-color: #FFFFFF;
-}
-div {
-   border: 5px solid #FFDCD2; 
-   background-color: #FFFFFF;
-   width: 350px;
-}
+
 
 .nav {
 	position: sticky;
