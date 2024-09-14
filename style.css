@@ -15,7 +15,6 @@ h2 {
    color: #6E6A6A;
    animation-duration: 3s;
    animation-name: slidein;
-   text-align: center;
 }
 @keyframes slidein {
   from {
@@ -31,23 +30,18 @@ h2 {
 
 ol {
    color: #6E6A6A;
-   text-align: center;
 }
 ul {
    color: #6E6A6A;
-   text-align: center;
 }
 marquee {
    color: #6E6A6A;
-   text-align: center;
 }
 p {
    color: #6E6A6A;
-   text-align: center;
 }
 button {
 	width: 50px;
-	text-align: center;
 }
 button:hover {
 	width: 50px;
@@ -59,7 +53,6 @@ button:hover {
 #img2 {
    margin-left: 60px;
    height: 150px;
-   text-align: center;
 }
 a:hover #img2, a:focus #img2 {
    transform: scale(1.5) rotate(-3deg);
