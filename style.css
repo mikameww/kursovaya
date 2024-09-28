@@ -114,4 +114,7 @@ a {
    animation-name: slidein;
    ​font-family: Garamond, serif;
 }
+selector {
+  cursor: url(cursor.png), auto;
+}
 
