@@ -115,6 +115,6 @@ a {
    ​font-family: Garamond, serif;
 }
 selector {
-  cursor: url(cursor.png), auto;
+  cursor: url(cursor.png), default;
 }
 
