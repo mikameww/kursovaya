@@ -109,73 +109,9 @@ a {
 }
 
 #diplom {
-  display: inline-block;
-  position: relative;
-  letter-spacing: .05em;
-  text-shadow:
-    1px 1px #6E6A6A,
-    -1px 1px #6E6A6A,
-    -1px -1px #6E6A6A,
-    1px -1px #6E6A6A;
-  transition: all 1s;
    color: #6E6A6A;
    animation-duration: 3s;
    animation-name: slidein;
    ​font-family: Garamond, serif;
-}
-
-#diplom:before {
-  content: "";
-  position: absolute;
-  top: 10px;
-  right: -15px;
-  bottom: -15px;
-  left: 0;
-  z-index: -1;
-  background: linear-gradient(
-    -45deg,
-    rgba(72, 209, 204, 0) 2px,
-    mediumturquoise 3px,
-    rgba(72, 209, 204, 0) 3px )
-    repeat;
-  background-size: 4px 4px;
-}
-
-#diplom:after {
-  content: attr(data-name);
-  position: absolute;
-  top: 2px;
-  left: 2px;
-  z-index: -2;
-  text-shadow:
-    1px 1px white,
-    2px 2px white,
-    3px 3px white,
-    4px 4px white;
-  color: white;
-  transition: all 1s;
-}
-
-#diplom:hover {
-   color: #6E6A6A;
-}
-
-#diplom:hover:before {
-  animation: 5s move_lines infinite linear;
-}
-
-#diplom:hover:after {
-   color: #6E6A6A;
-  text-shadow:
-    1px 1px #6E6A6A,
-    2px 2px l#6E6A6A,
-    3px 3px #6E6A6A,
-    4px 4px #6E6A6A;
-}
-
-@keyframes move_lines {
-  100% {
-    background-position: 40px 40px;
-  }
 }
 
