@@ -117,8 +117,11 @@ a {
     -1px 1px mediumturquoise,
     -1px -1px mediumturquoise,
     1px -1px mediumturquoise;
-  color: white;
   transition: all 1s;
+   color: #6E6A6A;
+   animation-duration: 3s;
+   animation-name: slidein;
+   ​font-family: Garamond, serif;
 }
 
 #diplom:before {
@@ -162,7 +165,7 @@ a {
 }
 
 #diplom:hover:after {
-  color: lemonchiffon;
+   color: #6E6A6A;
   text-shadow:
     1px 1px lemonchiffon,
     2px 2px lemonchiffon,
