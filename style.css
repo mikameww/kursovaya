@@ -113,10 +113,10 @@ a {
   position: relative;
   letter-spacing: .05em;
   text-shadow:
-    1px 1px mediumturquoise,
-    -1px 1px mediumturquoise,
-    -1px -1px mediumturquoise,
-    1px -1px mediumturquoise;
+    1px 1px #6E6A6A,
+    -1px 1px #6E6A6A,
+    -1px -1px #6E6A6A,
+    1px -1px #6E6A6A;
   transition: all 1s;
    color: #6E6A6A;
    animation-duration: 3s;
@@ -167,10 +167,10 @@ a {
 #diplom:hover:after {
    color: #6E6A6A;
   text-shadow:
-    1px 1px lemonchiffon,
-    2px 2px lemonchiffon,
-    3px 3px lemonchiffon,
-    4px 4px lemonchiffon;
+    1px 1px #6E6A6A,
+    2px 2px l#6E6A6A,
+    3px 3px #6E6A6A,
+    4px 4px #6E6A6A;
 }
 
 @keyframes move_lines {
