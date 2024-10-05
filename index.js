@@ -16,9 +16,10 @@ fistForm.addEventListener("submit", (e) => e.preventDefault());
 secondForm.addEventListener("submit", (e) => e.preventDefault());
 
 document.querySelector("#copyButton").addEventListener("click", function() {
-    navigator.clipboard.writeText(document.querySelector("#divv").innerText).then(function() {
-        console.log('Text copied to clipboard');
-    }).catch(function(error) {
-        console.error('Error:', error);
-    });
+    var range = document.createRange();
+    range.selectNode(document.querySelector("#divv"));
+    window.getSelection().removeAllRanges();
+    window.getSelection().addRange(range);
+    document.execCommand("copy");
+    window.getSelection().removeAllRanges();
 });
