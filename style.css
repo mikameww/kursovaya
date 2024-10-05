@@ -66,17 +66,20 @@ a:hover #img2, a:focus #img2 {
    height: 510px;
    width: 350px;
    background-color: #FFFFFF;
+   border-radius: 30px;
 }
 .divv {
    border: 5px solid #FFDCD2; 
    height: 290px;
    width: 300px;
    background-color: #FFFFFF;
+   border-radius: 30px;
 }
 div {
    border: 5px solid #FFDCD2; 
    background-color: #FFFFFF;
    width: 350px;
+   border-radius: 30px;
 }
 
 .nav {
@@ -87,6 +90,7 @@ div {
 	font-color: #6E6A6A;
 	height: 800px;
 	font: 30px "Courier New", sans-serif;
+	border-radius: 30px;
 }
 @import url('https://fonts.googleapis.com/css?family=Lobster Two');
 
@@ -115,6 +119,6 @@ a {
    ​font-family: Garamond, serif;
 }
 selector {
-  cursor: url(cursor.png), default;
+  cursor: src="cursor.png", auto;
 }
 
