@@ -80,7 +80,7 @@ a:hover #img2, a:focus #img2 {
    border-radius: 18px;
 }
 
-.divmarklist {
+#divmarklist {
    border: 5px solid #FFDCD2; 
    height: 290px;
    width: 300px;
