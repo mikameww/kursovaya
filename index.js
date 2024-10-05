@@ -16,7 +16,7 @@ fistForm.addEventListener("submit", (e) => e.preventDefault());
 secondForm.addEventListener("submit", (e) => e.preventDefault());
 
 document.querySelector("#copyButton").addEventListener("click", function() {
-    navigator.clipboard.writeText(document.querySelector("#divmarklist").innerText).then(function() {
+    navigator.clipboard.writeText(document.querySelector("#divv").innerText).then(function() {
         console.log('Text copied to clipboard');
     }).catch(function(error) {
         console.error('Error:', error);
