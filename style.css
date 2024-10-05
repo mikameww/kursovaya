@@ -79,6 +79,23 @@ a:hover #img2, a:focus #img2 {
    background-color: #FFFFFF;
    border-radius: 18px;
 }
+
+.divmarklist {
+   border: 5px solid #FFDCD2; 
+   height: 290px;
+   width: 300px;
+   background-color: #FFFFFF;
+   border-radius: 18px;
+}
+
+.divlvllist {
+   border: 5px solid #FFDCD2; 
+   height: 290px;
+   width: 300px;
+   background-color: #FFFFFF;
+   border-radius: 18px;
+}
+
 div {
    border: 5px solid #FFDCD2; 
    background-color: #FFFFFF;
