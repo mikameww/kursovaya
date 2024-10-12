@@ -51,9 +51,21 @@
 <h2><a name="marquee">Добавим MARQUEE</a></h2>
     <marquee behavior="scroll" direction="right">Текст движется направо</marquee>
 	  
-    <div>
+    <div id="mar">
      <p>&ltmarquee behavior="scroll" direction="right">Текст движется направо&lt/marquee></p>
     </div>
+
+<button id="copyButton">Код</button>
+<script>
+    document.querySelector("#copyButton").addEventListener("click", function() {
+    var range = document.createRange();
+    range.selectNode(document.querySelector("#mar"));
+    window.getSelection().removeAllRanges();
+    window.getSelection().addRange(range);
+    document.execCommand("copy");
+    window.getSelection().removeAllRanges();
+});
+</script>
 	  
     <h2><a name="textstyle">Добавим начертание</a></h2>
      <p>
@@ -74,7 +86,7 @@
         </sup>
       </p>
 
-	  <div>
+	  <div id="text">
      <p>
         &ltb>Полужирный&lt/b>
      </p>
@@ -105,6 +117,18 @@
         &lt/sup>
       </p>
 	  </div>
+
+<button id="CopyButton">Код</button>
+<script>
+    document.querySelector("#CopyButton").addEventListener("click", function() {
+    var range = document.createRange();
+    range.selectNode(document.querySelector("#text"));
+    window.getSelection().removeAllRanges();
+    window.getSelection().addRange(range);
+    document.execCommand("copy");
+    window.getSelection().removeAllRanges();
+});
+</script>
 		  
     <h2><a name="table">Добавим таблицу</a></h2>
     <table width='60%' height='100%' valign='top'>
@@ -121,7 +145,7 @@
 </tr>
     </table>
 
-	  <div>
+	  <div id="tab">
     <p>
     &lttable width='60%' height='100%' valign='top'>
     </p>
@@ -162,26 +186,60 @@
     &lt/table>
     </p>
 	  </div>
+
+<button id="Copybutton">Код</button>
+<script>
+    document.querySelector("#Copybutton").addEventListener("click", function() {
+    var range = document.createRange();
+    range.selectNode(document.querySelector("#tab"));
+    window.getSelection().removeAllRanges();
+    window.getSelection().addRange(range);
+    document.execCommand("copy");
+    window.getSelection().removeAllRanges();
+});
+</script>
 		  
 <h2><a name="animation">Добавим анимацию при наведении</a></h2>
 <a href>
     <img src="Без имени-1.png" id="img2" alt>
 </a>
 <h2>html:</h2>
-	  <div>
+	  <div id="animhtml">
 <p>&lta href></p>
     <p>&ltimg src="Ваше изображение" id="Ваш идентификатор" alt></p>
 <p>&lt/a></p>
 	  </div>
+
+<button id="copybutton">Код</button>
+<script>
+    document.querySelector("#copybutton").addEventListener("click", function() {
+    var range = document.createRange();
+    range.selectNode(document.querySelector("#animhtml"));
+    window.getSelection().removeAllRanges();
+    window.getSelection().addRange(range);
+    document.execCommand("copy");
+    window.getSelection().removeAllRanges();
+});
+</script>
 	  
 <h2>css:</h2>
-	  <div> 
+	  <div id="animcss"> 
 <p>a:hover #Ваш идентификатор, a:focus #Ваш идентификатор {</p>
 <p>transform: scale(1.5) rotate(-3deg);</p>
 <p>}</p>
 	  </div>
 	  
-
+<button id="COpyButton">Код</button>
+<script>
+    document.querySelector("#COpyButton").addEventListener("click", function() {
+    var range = document.createRange();
+    range.selectNode(document.querySelector("#animcss"));
+    window.getSelection().removeAllRanges();
+    window.getSelection().addRange(range);
+    document.execCommand("copy");
+    window.getSelection().removeAllRanges();
+});
+</script>
 
 <a href='index.html'>
     <button>
