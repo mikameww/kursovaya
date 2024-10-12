@@ -144,3 +144,6 @@ selector {
   cursor: src="cursor.png", auto;
 }
 
+.banner {
+	width: 1080px;
+}
