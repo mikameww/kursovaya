@@ -7,7 +7,7 @@ html {
 }
 
 body {
-   background: radial-gradient(white, #FFCAC0);
+   background: radial-gradient(#FFCAC0, white);
    background-size: cover;
    margin: 100px;
 }
