@@ -109,7 +109,17 @@
 <p>&lt/ul></p>
 </div>
 
-
+<button id="copyButton">Код</button>
+<script>
+    document.querySelector("#copyButton").addEventListener("click", function() {
+    var range = document.createRange();
+    range.selectNode(document.querySelector("#divmarklist"));
+    window.getSelection().removeAllRanges();
+    window.getSelection().addRange(range);
+    document.execCommand("copy");
+    window.getSelection().removeAllRanges();
+});
+</script>
 
     <h2>Многоуровневый список</h2>
 <div id="divlvllist">
@@ -128,11 +138,24 @@
 <p>&lt/ul></p>
 <p>&lt/ol></p>
 </div>
+
+<button id="copyButton">Код</button>
+<script>
+    document.querySelector("#copyButton").addEventListener("click", function() {
+    var range = document.createRange();
+    range.selectNode(document.querySelector("#divlvllist"));
+    window.getSelection().removeAllRanges();
+    window.getSelection().addRange(range);
+    document.execCommand("copy");
+    window.getSelection().removeAllRanges();
+});
+</script>	  
+	  
 <h2><a name="img">Добавим картинку</a></h2>
 <a href>
     <img src="6b1bb26664a8aafcd16a6d4436bcf54a.png" id="img1" alt>
 </a>
-<div>
+<div id="img">
     <p>
 &lta href>
     <p/>
@@ -143,6 +166,20 @@
 &lt/a>
     <p/>
 </div>
+
+<button id="copyButton">Код</button>
+<script>
+    document.querySelector("#copyButton").addEventListener("click", function() {
+    var range = document.createRange();
+    range.selectNode(document.querySelector("#img"));
+    window.getSelection().removeAllRanges();
+    window.getSelection().addRange(range);
+    document.execCommand("copy");
+    window.getSelection().removeAllRanges();
+});
+</script>
+
+	  
 <a href='index2.html'>
     <button>
 	<h1>➼</h1>
