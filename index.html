@@ -62,6 +62,16 @@
 	  </div>
 
 <button id="copyButton">Код</button>
+<script>
+    document.querySelector("#copyButton").addEventListener("click", function() {
+    var range = document.createRange();
+    range.selectNode(document.querySelector("#divv"));
+    window.getSelection().removeAllRanges();
+    window.getSelection().addRange(range);
+    document.execCommand("copy");
+    window.getSelection().removeAllRanges();
+});
+</script>
 	  
     <h2><a name="list">Добавим списки</a></h2>
     <h2>Маркированный список</h2>
