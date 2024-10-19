@@ -106,7 +106,7 @@ secondForm.addEventListener("submit", (e) => e.preventDefault());
 
 	  
 <h2>html:</h2>
-	  <div class="code">
+	  <div id="code">
  <p>&ltscript></p>
 
 <p>const signInBtn = document.getElementById("signIn");</p>
@@ -162,9 +162,21 @@ secondForm.addEventListener("submit", (e) => e.preventDefault());
 		<p>&lt/div></p>
 	<p>&lt/div></p>
 	  </div>
+
+<button id="copyButton">Код</button>
+<script>
+    document.querySelector("#copyButton").addEventListener("click", function() {
+    var range = document.createRange();
+    range.selectNode(document.querySelector("#code"));
+    window.getSelection().removeAllRanges();
+    window.getSelection().addRange(range);
+    document.execCommand("copy");
+    window.getSelection().removeAllRanges();
+});
+</script>
 	  
 <h2>css:</h2>
-	  <div class="code">
+	  <div id="css">
 	  <p>:root {</p>
 	  <p>	--white: #e9e9e9;</p>
 	  <p>	--gray: #FFE7E7;</p>
@@ -199,6 +211,18 @@ secondForm.addEventListener("submit", (e) => e.preventDefault());
 	  <p>	height: var(--max-height);</p>
 	  <p>	max-width: var(--max-width);</p>
 	  </div>
+
+<button id="CopyButton">Код</button>
+<script>
+    document.querySelector("#CopyButton").addEventListener("click", function() {
+    var range = document.createRange();
+    range.selectNode(document.querySelector("#css"));
+    window.getSelection().removeAllRanges();
+    window.getSelection().addRange(range);
+    document.execCommand("copy");
+    window.getSelection().removeAllRanges();
+});
+</script>
 	  
 	  <h2><a name="video">Добавим видео</a></h2>
 	  
