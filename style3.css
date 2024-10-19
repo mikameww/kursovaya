@@ -273,3 +273,9 @@ h3{
 p {
    ​font-family: Garamond, serif;
 }
+
+#vid {
+   border: 5px solid #FFDCD2; 
+   background-color: #FFFFFF;
+   width: 350px;
+}
