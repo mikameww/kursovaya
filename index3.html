@@ -231,19 +231,30 @@ secondForm.addEventListener("submit", (e) => e.preventDefault());
 	<h1>↲</h1>
     </button>
 </a>
-<a href='index4.html'>
-    <button>
-	<h1>➼</h1>
-    </button>
-</a>
 	  
-	  <h2><a name="video">Добавим видео</a></h2>
+<h2><a name="video">Добавим видео</a></h2>
+	  
+	  <div id="vid">
+	<p>&ltvideo width="320" height="320" controls="controls" poster="logo.png"></p>
+	<p>&ltsource src="Ваше видео" type="video/mp4"></p>
+	  </div>
+
+<button id="Copybutton">Код</button>
+<script>
+    document.querySelector("#Copybutton").addEventListener("click", function() {
+    var range = document.createRange();
+    range.selectNode(document.querySelector("#vid"));
+    window.getSelection().removeAllRanges();
+    window.getSelection().addRange(range);
+    document.execCommand("copy");
+    window.getSelection().removeAllRanges();
+});
+</script>
 	  
 	<video width="500" height="288" controls="controls" poster="logo.png">
 	<source src="1728117148677.mp4" type="video/mp4">
 
-	<p>&ltvideo width="320" height="320" controls="controls" poster="logo.png"></p>
-	<p>&ltsource src="Ваше видео" type="video/mp4"></p>
+
 
 
   </body>
