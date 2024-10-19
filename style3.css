@@ -228,7 +228,13 @@ h2 {
   }
 }  
 
-.code {
+#css {
+   border: 5px solid #FFDCD2; 
+   background-color: #FFFFFF;
+   width: 350px;
+}
+
+#code {
    border: 5px solid #FFDCD2; 
    background-color: #FFFFFF;
    width: 350px;
