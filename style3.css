@@ -232,12 +232,14 @@ h2 {
    border: 5px solid #FFDCD2; 
    background-color: #FFFFFF;
    width: 350px;
+   border-radius: 18px;
 }
 
 #code {
    border: 5px solid #FFDCD2; 
    background-color: #FFFFFF;
    width: 350px;
+   border-radius: 18px;
 }
 
 .nav {
@@ -278,5 +280,6 @@ p {
    border: 5px solid #FFDCD2; 
    background-color: #FFFFFF;
    width: 350px;
+   border-radius: 18px;
 }
 
