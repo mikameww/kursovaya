@@ -1,6 +1,6 @@
 let sign = prompt("?");
 
-if (sign.toLowerCase() === "Привет") {
+if (sign.toLowerCase() === "привет") {
   alert("Привет!");
 }
 
