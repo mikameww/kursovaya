@@ -1,0 +1,30 @@
+/* Светлая тема */
+:root {
+    --bg-color: #f9f9f9;
+    --text-color: #333;
+}
+
+/* Тёмная тема */
+.dark-theme {
+    --bg-color: #121212;
+    --text-color: #eaeaea;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    padding: 10px 15px;
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    border-radius: 4px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
