@@ -12,5 +12,5 @@ sign = window.prompt("Ваше имя.", "Имя");
 
 
 window.addEventListener('DOMContentLoaded', (event) => {
-    document.getElementById("demo").innerHTML = "Привет, " + sign;
+    document.getElementById("demo").innerHTML = "Привет, " + sign + "!";
 });
