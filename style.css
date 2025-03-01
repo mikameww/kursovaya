@@ -103,6 +103,14 @@ div {
    border-radius: 18px;
 }
 
+#divstructure {
+   border: 5px solid #FFDCD2;
+   height: auto;
+   width: 300px;
+   background-color: #FFFFFF;
+   border-radius: 18px;
+}
+
 .nav {
 	position: sticky;
 	float: right;
