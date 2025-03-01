@@ -71,6 +71,18 @@
 <p>&lt/html></p>
 </div>
 
+<button id="copyButton">Код</button>
+<script>
+    document.querySelector("#copyButton").addEventListener("click", function() {
+    var range = document.createRange();
+    range.selectNode(document.querySelector("#divstructure"));
+    window.getSelection().removeAllRanges();
+    window.getSelection().addRange(range);
+    document.execCommand("copy");
+    window.getSelection().removeAllRanges();
+});
+</script>
+
 <h2><a name="language">Установим язык - русский</a></h2>
 	  <div id="divv">
 	 <p>&lthtml lang="ru"></p>
