@@ -40,9 +40,6 @@ ol {
 ul {
    color: #6E6A6A;
 }
-marquee {
-   color: #6E6A6A;
-}
 p {
    color: #6E6A6A;
    panding-left: 35px;
@@ -154,4 +151,7 @@ selector {
 
 .banner {
 	width: 1080px;
+}
+#mar{
+	height: 20px;
 }
